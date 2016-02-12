@@ -3,11 +3,11 @@ script:
 - ./build.sh
 deploy:
   provider: releases
-  api_key: "${GH_TOKEN}"
+  api_key: ${GH_TOKEN}
   file: target/Melanoid.jar
   skip_cleanup: true
   on:
     tags: true
 env:
   global:
-    secure: Z55d4GPvlqcY0Il5a/z3R+/34UyPu0Y6OTOD9qn80VT4G0jZk9q7Qu/tz2tWRC7Z6FLqyJ/Gp+AVejKzqfAvH6dhz2Pgi8FtmM0Mlo6gEHJN/a9wodqu9G4N7Y1uspiDdZvcMxPywhaSOLLZjeIqq1h0ocmBIOwZjLDEj6NigdDWmLJYBtgQwHuCeYcf1OOg/GoGh8e/TT5Re2/4b+4JeybaTUlqe7viWfiFU67baN9uWASHAl9GdE1cnMw/tZiqHcxbXr9PwfCQB6sn6KMYG0x19o2ekiHWahUIR6bfFdqQ2M5+TYTGyX+eY7EEEv5eBYS5WEkMG/soH+ix9RdwKbwQtlZW5UuWCLkxfX5AOkmM1QdGZNgt7GpUBrgfENMWoaWNIQ4Y3JAForfgSLYZiR+XJhJY9+8giOIogQuZQG8YkispR9TePsmogOe8JOYRAy9VbkhG1mj1PNPLYn+Ghkv9sg1E6EdKHrPdH+MHoNZoM9bTQ6I3m6QshQojos/6Ec9hyORGS0EpNz8RbFF43nmk5S6PFk0LVVzhj1ljnbngyhxVDnZevgKPpTdzpof0Nzrz23qAYNLr7HFP3f+BIUAkcSc/J0M9McyWasDUlnreTNC5La+zNcYLOPuueGYbg3211xQs7/00qVCjbl53XswfyTmALUTfQ3bp+OAtfbI=
+  - secure: jju3kpnHt2DzMD9rbUKMsNdoCa1uWJfmJRtsKBd56hrL1Ju3mJ/zzoPs+Vp0t+peqRBMRB35cZtjSa5zbwSKHma9Ywfwq5lFPkQjk6mNh9Z7g3Umq117LZX+enDeTlHvnuM5iskgUOi5k6FYMFamrl+QcAbuTg5B96I8EiMyzPWy5Hz+0kb/hfxgqWXm/OYwCTOR3k3552/ubO+v/0M+c9yuag0kBdiP1ebWMMEfZ5cOqLNVNPy9JBA3bYcPipytBU0eh1ZB724OHK2hHP7T5H8RNrxAzmofAPLfswEY8/nP07r53UdQHIDNs6iN31OHyy7BcurAk/KtlXpWfBJSeJmBbQi/5OGTvsz+h2/g8zLH/lrYUTI3lxrF8XT9Io+KxhfGMlWP3JugcAo2dZDr/bS6S/Qy4a51z9rvX0zAxHye+O/+4L401OeKYltm7iJD/Ua/SdtPXARNibH1Lz+cdmTm9uqhimAxCxzVAQGRKuNK1W8G37lvPw1DcYJ0CUGZaFyFQKMlPmqMqQ2i/3PvbtJOG4ljPIUcfdY8UZiLgbf9Xlaz6V9qVJYN7pogU6GK+jvaE6XDakp4ZW7OZhSsrt/Xugwe/oitoM3cwuCBRvRQJXgyLNx/SklWQ6q5CB6gOJO31qUtlJVs60WzHJB/S1UcSTdiWsldX1f9NFAxmn0=
