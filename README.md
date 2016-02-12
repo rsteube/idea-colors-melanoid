@@ -5,7 +5,7 @@
 Intellij color theme
 
 ## Generic
-![java](java.png)
+<img src="java.png" width="452">
 
 ## Html
-![html](html.png)
+<img src="html.png" width="534">
